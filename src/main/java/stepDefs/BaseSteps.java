@@ -1,10 +1,12 @@
 package stepDefs;
+
 import com.jayway.jsonpath.DocumentContext;
 import com.jayway.jsonpath.JsonPath;
 import io.restassured.RestAssured;
 import io.restassured.http.Header;
 import io.restassured.http.Headers;
 import io.restassured.response.Response;
+
 import java.net.MalformedURLException;
 import java.net.URL;
 
@@ -70,14 +72,16 @@ public class BaseSteps {
 
 
     public Response getPostCall() {
-        response = RestAssured.given().log().all()          .relaxedHTTPSValidation().headers(headers)
+        response = RestAssured.given().log().all()
+                .relaxedHTTPSValidation().headers(headers)
                 .body(requestBodyJson.jsonString())
                 .when().post(getURL())
                 .then().log().all().extract().response();
         return response; }
 
     public Response getPostCallWithoutHeaders() {
-        response = RestAssured.given().log().all()          .relaxedHTTPSValidation()
+        response = RestAssured.given().log().all()
+                .relaxedHTTPSValidation()
                 .body(requestBodyJson.jsonString())
                 .when().post(getURL())
                 .then().log().all().extract().response();
@@ -98,10 +102,10 @@ public class BaseSteps {
 
     public void setEndpointPath(String endpointPath) {
         this.endpointPath = endpointPath;  }
-
     public DocumentContext loadJsonTemplate(String path) {
         requestBodyJson = JsonPath.parse(this.getClass().getResourceAsStream(path));
-        return requestBodyJson; }
+        return requestBodyJson;
+      }
 }
 
 
