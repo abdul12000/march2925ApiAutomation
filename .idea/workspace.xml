@@ -4,19 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="623c774c-5a1d-4102-af7f-4ba5d1756b35" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LateefJava.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="623c774c-5a1d-4102-af7f-4ba5d1756b35" name="Changes" comment="adding changes to the code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/stepDefs/BaseSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stepDefs/BaseSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/stepDefs/RestfulBookerStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stepDefs/RestfulBookerStepDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/Payload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilities/Payload.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/feature_files/RestfulBooker.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/feature_files/RestfulBooker.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/CreateBookingTemplate.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/CreateBookingTemplate.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/restAssuredTests/RestAssured_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restAssuredTests/RestAssured_Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runner/Testrunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/Testrunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +54,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example" />
       <recent name="runner" />
       <recent name="stepDefs" />
     </key>
@@ -168,6 +158,26 @@
       <option name="presentableId" value="Default" />
       <updated>1743023122174</updated>
     </task>
+    <task id="LOCAL-00001" summary="Adding a new class">
+      <created>1744230594298</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1744230594298</updated>
+    </task>
+    <task id="LOCAL-00002" summary="adding changes to the code">
+      <created>1744658808905</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1744658808905</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adding a new class" />
+    <MESSAGE value="adding changes to the code" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding changes to the code" />
   </component>
 </project>
