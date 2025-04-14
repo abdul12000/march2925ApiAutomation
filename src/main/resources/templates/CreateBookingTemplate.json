@@ -1,0 +1,11 @@
+{
+  "firstname" : "Godwin",
+  "lastname" : "Akpabio",
+  "totalprice" : 4444,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2026-01-01",
+    "checkout" : "2037-01-01"
+  },
+  "additionalneeds" : "Breakfast"
+}
