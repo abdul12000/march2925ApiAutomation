@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="623c774c-5a1d-4102-af7f-4ba5d1756b35" name="Changes" comment="adding changes to the code">
+    <list default="true" id="623c774c-5a1d-4102-af7f-4ba5d1756b35" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LateefJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/LateefJava.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,10 +144,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Testrunner" />
+        <item itemvalue="JUnit.RestAssured_Test.UpdateBooking" />
         <item itemvalue="JUnit.RestAssured_Test.getBookingIds" />
         <item itemvalue="JUnit.RestAssured_Test.deleteBooking" />
         <item itemvalue="JUnit.RestAssured_Test.createBooking" />
-        <item itemvalue="JUnit.RestAssured_Test.UpdateBooking" />
       </list>
     </recent_temporary>
   </component>
